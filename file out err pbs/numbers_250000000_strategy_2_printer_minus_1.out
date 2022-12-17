@@ -1,0 +1,44 @@
+------------------------------------------------------
+ This job is allocated on 8 cpu(s)
+Job is running on node(s): 
+wn273.scope.unina.it
+wn274.scope.unina.it
+wn275.scope.unina.it
+wn276.scope.unina.it
+wn277.scope.unina.it
+wn278.scope.unina.it
+wn279.scope.unina.it
+wn280.scope.unina.it
+------------------------------------------------------
+PBS: qsub is running on ui-studenti.scope.unina.it
+PBS: originating queue is studenti
+PBS: executing queue is studenti
+PBS: working directory is /homes/DMA/PDC/2022/PCCGPP98C/project_sum_of_numbers
+PBS: execution mode is PBS_BATCH
+PBS: job identifier is 4003918.torque02.scope.unina.it
+PBS: job name is numbers_250000000_strategy_2_printer_minus_1
+PBS: node file is /var/spool/pbs/aux//4003918.torque02.scope.unina.it
+PBS: current home directory is /homes/DMA/PDC/2022/PCCGPP98C
+PBS: PATH = /usr/lib64/openmpi/1.2.7-gcc/bin:/usr/kerberos/bin:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/mpirt/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64_mic:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/debugger/gui/intel64:/opt/d-cache/srm/bin:/opt/d-cache/dcap/bin:/opt/edg/bin:/opt/glite/bin:/opt/globus/bin:/opt/lcg/bin:/usr/local/bin:/bin:/usr/bin:/opt/exp_soft/HADOOP/hadoop-1.0.3/bin:/opt/exp_soft/unina.it/intel/composerxe/bin/intel64/:/opt/exp_soft/unina.it/MPJExpress/mpj-v0_38/bin:/homes/DMA/PDC/2022/PCCGPP98C/bin
+------------------------------------------------------
+Eseguo/usr/lib64/openmpi/1.4-gcc/bin/mpicc -o /homes/DMA/PDC/2022/PCCGPP98C/project_sum_of_numbers/numbers_sum /homes/DMA/PDC/2022/PCCGPP98C/project_sum_of_numbers/main.c
+Eseguo:/usr/lib64/openmpi/1.4-gcc/bin/-machinefile /var/spool/pbs/aux//4003918.torque02.scope.unina.it -n 8 /homes/DMA/PDC/2022/PCCGPP98C/project_sum_of_numbers/project_sum_of_numbers
+Executing with 1 processors
+I'm the processor 0 - This is the sum -572521.062500 - Total time elapsed: 1.033245 seconds
+Executing with 2 processors
+I'm the processor 0 - This is the sum 1206661.750000 - Total time elapsed: 0.516096 seconds
+I'm the processor 1 - This is the sum 1206661.750000 - Total time elapsed: 0.516096 seconds
+Executing with 4 processors
+I'm the processor 0 - This is the sum -1018172.375000 - Total time elapsed: 0.258233 seconds
+I'm the processor 1 - This is the sum -1018172.375000 - Total time elapsed: 0.258233 seconds
+I'm the processor 3 - This is the sum -1018172.375000 - Total time elapsed: 0.258233 seconds
+I'm the processor 2 - This is the sum -1018172.375000 - Total time elapsed: 0.258233 seconds
+Executing with 8 processors
+I'm the processor 7 - This is the sum -40224.375000 - Total time elapsed: 0.129427 seconds
+I'm the processor 0 - This is the sum -40224.375000 - Total time elapsed: 0.129427 seconds
+I'm the processor 1 - This is the sum -40224.375000 - Total time elapsed: 0.129427 seconds
+I'm the processor 2 - This is the sum -40224.375000 - Total time elapsed: 0.129427 seconds
+I'm the processor 3 - This is the sum -40224.375000 - Total time elapsed: 0.129427 seconds
+I'm the processor 4 - This is the sum -40224.375000 - Total time elapsed: 0.129427 seconds
+I'm the processor 6 - This is the sum -40224.375000 - Total time elapsed: 0.129427 seconds
+I'm the processor 5 - This is the sum -40224.375000 - Total time elapsed: 0.129427 seconds
